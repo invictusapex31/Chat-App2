@@ -1,0 +1,39 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "Production-ready real-time chat application with audio/video calling",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "webrtc",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
