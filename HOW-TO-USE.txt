@@ -1,0 +1,93 @@
+═══════════════════════════════════════════════════════════
+    REAL-TIME CHAT APP - HOW TO USE
+═══════════════════════════════════════════════════════════
+
+🚀 QUICK START (ONE CLICK):
+────────────────────────────────────────────────────────────
+1. Double-click: START-CHAT-APP.bat
+2. Wait 10 seconds for servers to start
+3. Browser opens automatically at http://localhost:3000
+4. Register and start chatting!
+
+📋 WHAT HAPPENS:
+────────────────────────────────────────────────────────────
+✅ Backend server starts on port 5000
+✅ Frontend app starts on port 3000
+✅ Two command windows open (don't close them!)
+✅ Browser opens automatically
+✅ App is ready to use!
+
+👥 TESTING WITH TWO USERS:
+────────────────────────────────────────────────────────────
+1. Register User 1:
+   - Email: alice@test.com
+   - Password: password123
+   
+2. Open another browser (or incognito window)
+   
+3. Register User 2:
+   - Email: bob@test.com
+   - Password: password123
+   
+4. Start chatting between the two users!
+   - See real-time messages
+   - See online/offline status
+   - See typing indicators
+   - Try video call (allow camera/mic)
+
+🌐 ACCESS URLS:
+────────────────────────────────────────────────────────────
+Frontend:  http://localhost:3000
+Backend:   http://localhost:5000
+Health:    http://localhost:5000/health
+
+📁 FEATURES:
+────────────────────────────────────────────────────────────
+✅ Real-time messaging
+✅ User authentication
+✅ Online/offline status
+✅ Typing indicators
+✅ Video/audio calling (WebRTC)
+✅ Modern dark theme UI
+✅ Responsive design
+✅ No database required (uses in-memory storage)
+
+🛑 TO STOP THE APP:
+────────────────────────────────────────────────────────────
+Close both command windows that opened:
+- "Chat Backend - Port 5000"
+- "Chat Frontend - Port 3000"
+
+🔧 TROUBLESHOOTING:
+────────────────────────────────────────────────────────────
+Problem: Port already in use
+Solution: Close all Node.js processes or restart computer
+
+Problem: Browser doesn't open
+Solution: Manually open http://localhost:3000
+
+Problem: Can't connect
+Solution: Make sure both server windows are still open
+
+Problem: Need to restart
+Solution: Close both windows and run START-CHAT-APP.bat again
+
+📦 TECH STACK:
+────────────────────────────────────────────────────────────
+Backend:  Node.js, Express, Socket.IO
+Frontend: React 18, WebRTC
+Storage:  In-memory (no database needed)
+
+🎯 OPTIONAL - CREATE DESKTOP SHORTCUT:
+────────────────────────────────────────────────────────────
+Double-click: CREATE-DESKTOP-SHORTCUT.bat
+This creates a "Chat App" icon on your desktop!
+
+📚 MORE INFO:
+────────────────────────────────────────────────────────────
+- README.md - Full documentation
+- SETUP.md - Detailed setup guide
+- QUICK_START.md - Quick start guide
+
+🌟 ENJOY YOUR CHAT APP!
+═══════════════════════════════════════════════════════════
